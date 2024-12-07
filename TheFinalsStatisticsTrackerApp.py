@@ -28,7 +28,7 @@ def take_screenshot():
 
     # Take and save the screenshot
     screenshot = pyautogui.screenshot()
-    screenshot_path = f"screenshot_{len(all_screenshots)+1}.png"
+    screenshot_path = f"Screenshots/screenshot_{len(all_screenshots)+1}.png"
     screenshot.save(screenshot_path)
     all_screenshots.append(screenshot_path)
 
